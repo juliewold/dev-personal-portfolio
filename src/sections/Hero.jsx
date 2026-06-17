@@ -71,9 +71,9 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Julie Wold, a CS-student at NTNU. I'm passionate about
-                software development and currently building projects while
-                learning modern web technologies.
+                Hi, I'm Julie Wold, a Computer Engineering student at NTNU with
+                a passion for software development. I'm currently building
+                projects and expanding my skills in modern web technologies.
               </p>
             </div>
 
@@ -89,8 +89,26 @@ export const Hero = () => {
             </div>
 
             {/* Social Links */}
-            <div>
-              <span>Follow me: </span>
+            <div className="flex items-center gap-4">
+              <span className="text-sm text-muted-foreground">Follow me:</span>
+
+              <a
+                href="https://github.com/juliewold"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full glass hover:bg-primary/10 transition-all duration-300"
+              >
+                <img src="/github.webp" alt="GitHub" className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/julie-wold-27a29337a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full glass hover:bg-primary/10 transition-all duration-300"
+              >
+                <img src="/LinkedIn.webp" alt="LinkedIn" className="w-5 h-5" />
+              </a>
             </div>
           </div>
           {/* Right Column - Profile Image */}
